@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import FeedCard from "./components/FeedCard"
+import FeedCard from "./components/components"
 import { ThemeProvider } from "./components/theme-provider"
 
 export default function Home() {

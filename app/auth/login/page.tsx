@@ -26,23 +26,23 @@ export default function Login() {
             <div className="space-y-4">
               <div className="space-y-2">
                 <Label htmlFor="email">Email</Label>
-                <Input id="email" placeholder="m@example.com" required type="email" />
+                <Input id="email" placeholder="johndoe@example.com" required type="email" />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="password">Password</Label>
-                <Input id="password" required type="password" />
+                <Input id="password" placeholder="*********" required type="password" />
               </div>
-              <div className="flex items-center space-x-2">
+              <div className="  flex items-center space-x-2">
                 <Checkbox id="remember" />
-                <Label className="text-sm leading-none" htmlFor="remember">
+                <Label className="text-sm cursor-pointer leading-none" htmlFor="remember">
                   Remember me
                 </Label>
               </div>
               <Button className="w-full">Login</Button>
             </div>
-            <div className="text-center text-sm space-x-1">
+            <div className=" cursor-default text-center text-sm space-x-1">
               <p className="text-gray-500 dark:text-gray-400">Don't have an account?</p>
-              <p className="underline">
+              <p className="underline ">
                 Contact a nearby admin
               </p>
             </div>
